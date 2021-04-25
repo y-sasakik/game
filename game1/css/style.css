@@ -1,0 +1,30 @@
+.wrapper{
+  width: 100%;
+  height: 1000px;
+  background-image: url(../img/dog.jpg);
+  background-size: cover;
+
+}
+
+
+.box li{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+background: red;
+}
+.box li:nth-child(even){ background: blue;}
+
+
+
+
+
+
+  @media (max-width: 600px){
+  .wrapper{
+    width: 400px;
+    height: 500px;
+  
+  }
+
+ }
